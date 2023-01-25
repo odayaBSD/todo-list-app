@@ -1,0 +1,30 @@
+.page_wrapper {
+    display: grid;
+}
+
+.page_back {
+    display: grid;
+    min-height: 100vh;
+    height: 100% !important;
+    grid-template-rows: auto auto auto;
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 0;
+}
+
+.page_image {
+    grid-row: 1 / 2;
+    background-image: url('../../assets/images/3530.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.page_gradient {
+    height: 100%;
+    background-image: linear-gradient(to left, #82039d, #7b00af, #6d00c1, #540dd6, #121ceb);
+    opacity: .65;
+}
+
+.page_front {
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 1;
+}

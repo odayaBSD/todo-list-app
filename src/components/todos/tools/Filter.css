@@ -1,0 +1,14 @@
+.filter {
+    display: flex;
+    justify-content: center;
+}
+
+.filter button {
+    background-color: transparent;
+    border: none;
+    color: #666;
+}
+
+.filter button.active {
+    color: #5594f2;
+}

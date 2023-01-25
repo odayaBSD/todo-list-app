@@ -1,0 +1,7 @@
+.footer_list {
+    display: grid;
+}
+
+.footer_list > :last-child {
+    margin-left: auto;
+}
